@@ -50,6 +50,7 @@ ol {
   padding-top: 77px;
 }
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
@@ -142,9 +143,6 @@ video {
   opacity: 0;
   background-color: #ffffff;
 }
-.search-form__pseudo-checkbox:has(:focus-visible) {
-  outline: 1px solid #ffffff;
-}
 .button {
   align-items: center;
   min-height: 34px;
@@ -199,6 +197,7 @@ video {
   color: #545050;
 }
 .content__list-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -269,7 +268,7 @@ video {
   line-height: 16.2px;
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 4;
 }
 .content__video-card-thumbnail {
   flex-shrink: 0;
